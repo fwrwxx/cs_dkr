@@ -1,0 +1,69 @@
+m255
+K3
+13
+cModel Technology
+dD:\kpi\schemotech\modelsim_ase\examples
+valb
+IDnVRYO5XhgKgbO]OI=Sm[0
+V6<KC;1`g=]>BCm39i<[bh2
+Z0 dD:\kpi\schemotech\Mega_lab_ALB
+w1747736999
+8D:/kpi/schemotech/Mega_lab_ALB/alb.v
+FD:/kpi/schemotech/Mega_lab_ALB/alb.v
+L0 1
+Z1 OV;L;6.5b;42
+r1
+31
+Z2 !s102 -nocovercells
+Z3 o-work work -nocovercells -O0
+!s100 HWGzfn^mXzoLLU<[MIZTN0
+!s85 0
+!s101 -O0
+valb_tb
+IP2dk3OZh3jIf<;eZaB^S82
+V?AiDF<aBfZAb[UE[DOTZe0
+Z4 dD:\kpi\schemotech\Mega_lab_ALB
+w1747736995
+Z5 8D:/kpi/schemotech/Mega_lab_ALB/testbench.v
+Z6 FD:/kpi/schemotech/Mega_lab_ALB/testbench.v
+L0 3
+R1
+r1
+31
+R2
+R3
+!s100 lmhz868M8n3E:122bHI>b0
+!s85 0
+!s101 -O0
+vnormalizer
+!s100 VIC<eI[G_X>AXMA8caY`T0
+I>17d5>:O@NQcM9K;]9hcM2
+VojfE6MzTlccEJ2_Vc6K9_1
+R4
+w1747738352
+8D:/kpi/schemotech/Mega_lab_ALB/normalizer1.v
+FD:/kpi/schemotech/Mega_lab_ALB/normalizer1.v
+L0 1
+R1
+r1
+!s85 0
+31
+!s101 -O0
+R2
+R3
+vtestbench
+Ic@14B8e]iJZV=DW7YbNNe3
+VhGfW:390DM[oDMzegDH9`2
+R4
+w1747736555
+R5
+R6
+L0 3
+R1
+r1
+31
+R2
+R3
+!s100 l7Eo@Qjz1A;_MahfLmbkz3
+!s85 0
+!s101 -O0

@@ -1,0 +1,36 @@
+module alb (
+    input [9:0] R,
+    input [9:0] S,
+    input CI,
+    input [1:0] sel,
+    output reg [9:0] F,
+    output CO,
+    output VO,
+    output NO,
+    output ZO
+);
+
+    reg [10:0] tmp; // ??? ?????. ???????? ? ?????????
+
+    always @(*) begin
+        case (sel)
+            2'b00: F = ~R | S;
+            2'b01: begin
+                tmp = R + S + CI;
+                F = tmp[9:0];
+            end
+            2'b10: F = ~(R ^ S);
+            2'b11: begin
+                tmp = R - S - 1 + CI;
+                F = tmp[9:0];
+            end
+        endcase
+    end
+
+    assign CO = tmp[10];
+    assign VO = F[9] ^ tmp[10];
+    assign NO = F[9];
+    assign ZO = (F == 10'b0);
+
+endmodule
+

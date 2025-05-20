@@ -1,0 +1,15 @@
+D:/kpi/schemotech/Mega_lab_ALB/alb.v {1 {vlog -work work -nocovercells D:/kpi/schemotech/Mega_lab_ALB/alb.v
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module alb
+
+Top level modules:
+	alb
+
+} {} {}} D:/kpi/schemotech/Mega_lab_ALB/normalizer1.v {1 {vlog -work work -nocovercells D:/kpi/schemotech/Mega_lab_ALB/normalizer1.v
+Model Technology ModelSim ALTERA vlog 6.5b Compiler 2009.10 Oct  1 2009
+-- Compiling module normalizer
+
+Top level modules:
+	normalizer
+
+} {} {}}
